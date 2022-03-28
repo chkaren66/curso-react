@@ -1,0 +1,19 @@
+.content-calculadora{
+   width: 400px;
+   height: 550px;
+   padding: 14px;
+   /* background-color:#009929; */
+   background: linear-gradient(70deg, #009929,#90c592);
+   border-radius: 20px;
+   border: 1px solid rgb(187, 183, 183);
+   box-shadow: 1px 3px 5px 1px rgb(92, 91, 91);
+}
+.content{
+    margin: 20px;
+}
+.fila{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
