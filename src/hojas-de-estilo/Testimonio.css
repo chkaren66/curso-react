@@ -1,0 +1,18 @@
+.contenedor-testimonio{
+    width: 1170px;
+    background-color:white;
+    height: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9px);
+}
+.imagen-testimonio{
+    height: 100%;
+    width: auto;
+}
+.texto-testimonio{
+    font-size: 15px;
+    padding: 20px;
+    text-align: justify;
+} 

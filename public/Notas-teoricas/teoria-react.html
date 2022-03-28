@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 1rem;
+        }
+
+        img{
+            width: 300px;
+            padding-left: auto;
+            padding-right: auto;
+            
+        }
+        h3{
+            background-color: rgb(222, 143, 241);
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Que es React</h3>
+Es una biblioteca (libreria) de Javascript de codigo abierto desenada para crear interfaces de usuario. Es muy usado actualmente.
+react nos da herramientas para crear nuestra aplicacion web.
+
+<h3>Ventajas de React</h3>
+<ul>
+    <li>facil de aprender y usar</li>
+    <li>Crear componentes reutilizables</li>
+    <li>crear aplicaciones dinamicas, cambian el estado de la aplicacion</li>
+    <li>buen desempeno, cada cambio que se hace, se actualiza a nivel componente.</li>
+</ul>
+
+<h3>Conceptos Basicos de React</h3>
+<ul>
+    <li>Componente: Parte de la interfaz de usuario que es independiente(estado y funcionalidad especifica) y reusable(Lo escribimos una sola vez y lo usamos varias veces)</li>
+    <img src="/Imagenes/componentes.png" alt="" >
+    <ul>
+        <li>Componenetes funcionales: Es una funcion de Javascript, esta funcion retorna un elemento de React (JSX) </li>
+        <img src="/Imagenes/imagen-ejemplo-funcion.png" alt="">
+        <p>Siendo props = "propiedades", son argumentos que pueden recibir los compoenentes react, los props solo pueden ser enviados de padre a hijo</p>
+         <ul>
+             <p>Caracteristicas</p>
+             <li>Debe retornar un elemento de react JSX</li>
+             <li>El nombre debe comenzar con una letra mayuscula</li>
+             <li>Puede recibir valoreso props si es necesario</li>
+         </ul>
+        <li>Componenetes de clase: Es una clase de ES6 que retorna un elemento JSX, su sintanxis es mas elaborada. </li>
+        <img src="/Imagenes/componente-clase.png" alt="">
+        <ul>
+            <p>Caracteristicas</p>
+            <li>Debe extender de React.Component</li>
+            <li>Debe tener un metodo render para retornar un elemento JSX</li>
+            <li>Puede recibir valores o props si es necesario </li>
+        </ul>
+    </ul>
+    <li>Estado:(State) Representacion en Javascript del conjunto de propiedades de un componenee y sus valores actuales</li>
+    <li>Hooks o anzuelos: Nos permiten agregar cierto estado a los compoenentes funcionales.Ahora si podemos actualizar los estados de un componente funcional.
+    <br>
+        "Funcion Especial que te permite trabajar con estados en componentes funcionales y otros aspectos de react, sin escribir componentes de clase"
+    </li>
+    <li>Event Listener: Funcion en javascript que es ejecutada cuando ocurre un evento especifico</li>
+
+   
+
+</ul>
+<h3>Introduccion a JSX</h3>
+<p>Es una extension de react para la sintaxis de javascript, nos permite describir como se veran los componentes similar a HTML, combinando asi js y HTML. Recordar que JSX es opcional. En React podemos usar expresiones javascript normales con JSX.</p>
+<ul>
+    <img src="/Imagenes/ejemplojsx.png" alt="">
+    <p>Ventajas</p>
+    <li> Estructura mas facil de visualizar</li>
+    <li>Errores y advertencias mas utiles</li>
+</ul>
+
+    <p>Elementos JSX: unidades mas basica que se puede crear, los compoenentes estan conformados de elementos, y no al contrario.</p>
+    <p>Atributos: Se pueden agregar como en html, id, clases entre otro.</p>
+    <h4>Estructura</h4>
+     
+    
+
+<h3>Iniciando con React JS</h3>
+<ol>
+    <li>Instalar node js en la computadora, basicamente nos permite ejecutar codigo javascript fuera de un brouser</li>
+    <li>Crear el proyecto react con el comando "npx create-react-app nombre-app"</li>
+    <li>Enconces seguimos los pasos que recomienda y ponemos npm start en consola para iniciar el servidor </li>
+
+</ol>
+
+
+
+</body>
+</html>
