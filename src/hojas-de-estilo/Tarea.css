@@ -21,6 +21,16 @@
  overflow-wrap: anywhere;
 
 }
+
+.tarea-contenedor:nth-child(3n +1){
+	background-color: aqua;
+}
+.tarea-contenedor:nth-child(3n +2){
+	background-color: fuchsia;
+}
+.tarea-contenedor:nth-child(3n +3){
+	background-color: yellow;
+}
 .tarea-icono{
  width: 30px;
  height: 30px;
